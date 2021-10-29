@@ -1,0 +1,40 @@
+mkdir sample-git
+cd sample-git
+git init
+touch .gitigmore
+git add .gitigmore
+git status
+git commit -m "initial commit"
+touch README.md
+git add README.md
+git status
+git commit -m "update"
+git remote add origin https://github.com/furkan0920/sample-git.git
+git push -u origiin master
+git pull https://github.com/furkan0920/sample-git.git
+git branch branch-1
+git branch branch-2
+git branch branch-3
+git branch branch-4
+git branch
+git push -u origin --all
+git push -u origin --all
+git checkout branch-1
+touch Hello-1.txt
+git add Hello-1.txt
+git commit -m "Hello-1.txt"
+echo CE103 Algorithms and Programmin-1 >> Hello-1.txt
+git add .
+git commit -m "string added"
+git add .
+git checkout branch-2
+echo Algoritmhs and Programming-1 >> Hello-1.txt
+git add .
+git commit -m "Hello-1 added"
+git merge branch-1 branch-2
+git add .
+git commit -m "merge"
+git push -u origin --all
+
+
+
