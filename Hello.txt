@@ -1,8 +1,8 @@
 mkdir sample-git
 cd sample-git
 git init
-touch .gitigmore
-git add .gitigmore
+touch .gitignore
+git add .gitignore
 git status
 git commit -m "initial commit"
 touch README.md
