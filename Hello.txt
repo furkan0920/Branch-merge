@@ -1,3 +1,5 @@
+git config --global user.name "Emma Paris"
+git config --global user.email "eparis@atlassian.com"
 mkdir sample-git
 cd sample-git
 git init
